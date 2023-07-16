@@ -1,0 +1,115 @@
+.media {
+    height: 20vh;
+    width: 100%;
+    background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/02/66/87/73578b94f836a03.jpg');
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.media .shadow {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 5;
+    font-size: large;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+
+.media::after {
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 0.2) 20%,
+            rgba(0, 0, 0, 0.4) 40%,
+            rgba(0, 0, 0, 0.6) 60%,
+            rgba(0, 0, 0, 0.8) 80%,
+            rgba(0, 0, 0, 1) 100%);
+
+
+}
+
+
+
+.columnWrapper {
+    padding: 0 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.columnWrapper .ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+
+
+}
+
+.columnWrapper .ul .actor {
+    width: auto;
+    text-align: center;
+    padding: 1vw;
+
+}
+
+.columnWrapper .ul .actor .card a .img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.columnWrapper .ul .actor .card a .person{
+    max-width: 100%;
+    height: auto;
+
+}
+.columnWrapper .ul .actor .card a .person path {
+    fill: white;
+    max-width: 100%;
+
+
+}
+
+
+.columnWrapper .ul .actor .card a .name {
+    margin: 0%;
+    font-size: 100%;
+    padding: 10px;
+}
+
+.columnWrapper .ul .actor .card a:hover .name {
+    color: red;
+}
+
+.view {
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+
+}

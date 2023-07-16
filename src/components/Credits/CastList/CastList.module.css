@@ -1,0 +1,65 @@
+
+.cast{
+    width: 50%;
+    font-size: large;
+    font-weight: 600;
+
+
+}
+.cast .people{
+
+}
+
+.cast .people .ul{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.cast .people .ul .person{
+    margin-top: 20px;
+    display: flex;
+    
+
+
+}
+
+.cast .people .ul .person .Annonymous {
+    min-width: 66px;
+    
+}
+
+.cast .people .ul .person .Annonymous svg path{
+    fill: white;
+}
+
+
+.cast .people .ul .person .names{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.cast .people .ul .person .names a .name{
+
+    margin: 0;
+    font-size: small;
+    font-weight: 700;
+
+
+}
+.cast .people .ul .person .names .character{
+    
+    margin: 0;
+    font-size: small;
+    font-weight: 300;
+
+
+}
+
+
+.cast .people .ul .person a .names .character{
+    font-weight: 300;
+}
+

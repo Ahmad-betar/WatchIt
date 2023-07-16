@@ -1,0 +1,288 @@
+/* .columnHeader {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+
+
+    .type {
+        margin: 0px;
+
+
+    }
+
+
+    .columnbutton {
+
+        padding: 5px;
+        margin-left: 20px;
+        width: 12%;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 100%;
+    }
+
+
+}
+
+
+.carousel {
+
+
+    --swiper-theme-color: red;
+    --swiper-scrollbar-bg-color: black;
+    --swiper-scrollbar-size: 8px;
+    --swiper-scrollbar-drag-bg-color: red;
+    position: relative;
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+
+
+
+    .inner_carousel {
+
+
+        width: 200px !important;
+        margin-right: 15px !important;
+        pointer-events: fill;
+        cursor: pointer;
+        position: relative;
+        transition: 0.3s;
+
+        .imageContainer {
+            position: relative;
+
+
+            .image {
+                width: 100%;
+                border-radius: 15px;
+
+            }
+
+            .watchEffect {
+
+                background-color: rgba(0, 0, 0, 0.8);
+                height: 100%;
+                display: flex;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 15px;
+                display: none;
+
+                
+            }
+
+        }
+
+
+        .title {
+            font-weight: 700;
+
+        }
+
+    }
+
+    .inner_carousel:hover {
+        padding: 10px;
+
+
+        .watchEffect {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .watch {
+
+                width: 40%;
+                height: 20%;
+                background-color: red;
+                border-radius: 50px;
+                box-shadow: 0px 0px 10px 2px red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                .triangle {
+
+                    height: 30%;
+                    width: 30%;
+                    color: white;
+
+                }
+
+                .triangle path {
+                    fill: white;
+
+                }
+            }
+
+        }
+
+        .title {
+            color: red;
+
+        }
+
+    }
+
+}
+
+.carousel::after {
+    content: "";
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 3%;
+    background: linear-gradient(to right,
+            transparent 0%,
+            rgba(0, 0, 0, 0.4) 20%,
+            rgba(0, 0, 0, 0.6) 40%,
+            rgba(0, 0, 0, 0.8) 60%,
+            rgba(0, 0, 0, 0.9) 80%,
+            rgba(0, 0, 0, 1) 100%);
+
+
+} */
+
+
+
+.columnHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+    
+
+
+
+}
+
+.columnHeader .type {
+    margin: 0px;
+}
+
+.columnHeader .columnbutton {
+    padding: 5px;
+    margin-left: 20px;
+    width: 12%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.carousel {
+    --swiper-theme-color: red;
+    --swiper-scrollbar-bg-color: black;
+    --swiper-scrollbar-size: 8px;
+    --swiper-scrollbar-drag-bg-color: red;
+    position: relative;
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.carousel .inner_carousel {
+    width: 200px !important;
+    margin-right: 15px !important;
+    pointer-events: fill;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    align-self: center
+
+}
+
+.carousel .inner_carousel .imageContainer {
+    position: relative;
+
+}
+
+.carousel .inner_carousel .imageContainer .video g path{
+    fill: white;
+
+
+}
+
+.carousel .inner_carousel .image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.carousel .inner_carousel .watchEffect {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    display: none;
+}
+
+.carousel .inner_carousel .title {
+    font-weight: 700;
+}
+
+.carousel .inner_carousel:hover {
+    padding: 10px;
+}
+
+.carousel .inner_carousel:hover .watchEffect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .inner_carousel:hover .watchEffect .watch {
+    width: 40%;
+    height: 20%;
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .inner_carousel:hover .watchEffect .watch .triangle {
+    height: 30%;
+    width: 30%;
+    color: white;
+}
+
+.carousel .inner_carousel:hover .watchEffect .watch .triangle path {
+    fill: white;
+}
+
+.carousel .inner_carousel:hover .title {
+    color: red;
+}
+
+.carousel::after {
+    content: "";
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 3%;
+    background: linear-gradient(to right,
+            transparent 0%,
+            rgba(0, 0, 0, 0.4) 20%,
+            rgba(0, 0, 0, 0.6) 40%,
+            rgba(0, 0, 0, 0.8) 60%,
+            rgba(0, 0, 0, 0.9) 80%,
+            rgba(0, 0, 0, 1) 100%);
+}

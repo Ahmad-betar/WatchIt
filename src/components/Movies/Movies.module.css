@@ -1,0 +1,56 @@
+.media {
+    height: 20vh;
+    width: 100%;
+    background: url('https://preview.redd.it/642lnjexm8d01.jpg?auto=webp&v=enabled&s=d4658fe647f9da77681355448bf21185104024c9');
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.media .shadow {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 5;
+    font-size: large;
+    font-weight: 700;
+    letter-spacing: 3px;
+
+}
+
+.media::after {
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    background: linear-gradient(to bottom,
+            transparent 0%,
+            rgba(0, 0, 0, 0.2) 20%,
+            rgba(0, 0, 0, 0.4) 40%,
+            rgba(0, 0, 0, 0.6) 60%,
+            rgba(0, 0, 0, 0.8) 80%,
+            rgba(0, 0, 0, 1) 100%);
+
+
+}
+
+
+
+.columnWrapper{
+    padding: 0 10vw;
+    
+}
+
+.noMovie{
+    text-align: center;
+    
+}
+

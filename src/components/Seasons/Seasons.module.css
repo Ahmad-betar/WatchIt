@@ -1,0 +1,62 @@
+.seasons{
+
+}
+
+.seasons .ul{
+    padding: 5vh 10vw;
+}
+
+.seasons .ul .season{
+
+    display: flex;
+
+
+}
+
+.seasons .ul .season .img{
+    border-radius: 20px;
+
+
+}
+
+.seasons .ul .season .info{
+    padding-left: 20px;
+
+
+}
+
+.seasons .ul .season .info .date{
+    font-weight: 200;
+}
+
+
+.seasons .ul .season .info .count{
+    font-weight: 300;
+}
+
+.seasons .ul .season a {
+    display: flex;
+    align-items: center;
+}
+
+.seasons .ul .season .info a .name{
+    margin: 0;
+
+
+}
+
+.seasons .ul .season .info .date{
+    margin: 0;
+    padding-top: 10px;
+
+
+}
+
+.seasons .ul .season .info .count{
+    margin: 0;
+    padding-top: 10px;
+
+}
+
+
+

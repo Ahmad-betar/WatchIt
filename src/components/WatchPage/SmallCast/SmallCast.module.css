@@ -1,0 +1,64 @@
+.ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+
+}
+.ul .viewMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.viewMore a:hover{
+    color: red;
+}
+
+.ul .actor{
+
+    width: 15%;
+    height: 100%;
+    margin-right: 10px;
+
+
+}
+.ul .actor a svg{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+
+.ul .actor a svg path{
+    fill: white;
+}
+
+.ul .actor a .img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.ul .actor a:hover .actorName{
+    color: red;
+}
+
+
+.ul .actor a .actorName,
+.ul .actor a .character{
+    margin: 0;
+    font-size: small;
+
+}
+
+.ul .actor a .actorName{
+    font-weight: 700;
+
+}
+
+
+.ul .actor a .character{
+    font-weight: 300;
+}

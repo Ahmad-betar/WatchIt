@@ -1,0 +1,32 @@
+
+.wrapper {
+    width: 100%;
+    padding: 0 10vw;
+
+
+}
+
+.wrapper .video {
+    margin: auto;
+    position: relative;
+    padding: 30px;
+    height: fit-content;
+
+
+}
+
+.wrapper .video .videoName {
+    font-weight: 500;
+    font-size: larger;
+
+
+}
+
+.wrapper iframe {
+    margin: auto;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+
+
+
+}

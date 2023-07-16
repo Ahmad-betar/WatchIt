@@ -1,0 +1,78 @@
+.logout {
+
+
+    width: 80vw;
+    margin: 0rem auto;
+    padding: 20px;
+    position: relative;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 30;
+    top: 30vh;
+    left: 35%;
+
+
+    .sure {
+
+        font-size: 150%;
+        color: white;
+        font-weight: 700;
+        margin: 20px 0px;
+        text-align: start;
+
+
+    }
+
+    .form {
+
+        display: flex;
+        justify-content: end;
+
+        .button {
+            padding: 10px;
+            margin: 5px;
+            width: 15%;
+            border-radius: 10px;
+            font-size: 100%;
+
+        }
+
+    }
+
+
+}
+
+
+@media (width >=680px) {
+
+    .logout {
+        width: 530px;
+    }
+}
+
+@media (width < 1000px) {
+    .logout {
+        left: 20%;
+    }
+}
+
+@media (width < 784px) {
+    .logout {
+        left: 8%;
+
+        .form {
+
+            .button {
+                padding: 10px;
+                margin: 5px;
+                width: fit-content;
+                border-radius: 10px;
+                /* font-size: 70%; */
+
+            }
+
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.season {}
+
+.season .ul {
+    padding: 5vh 10vw;
+}
+
+.season .ul .episode {
+
+    display: flex;
+
+
+}
+
+.season .ul .episode .img {
+    border-radius: 20px;
+
+
+}
+
+.season .ul .episode .info {
+    padding-left: 20px;
+
+
+}
+
+.season .ul .episode .info .date {
+    font-weight: 200;
+}
+
+
+.season .ul .episode .info .count {
+    font-weight: 300;
+}
+
+.season .ul .episode a {
+    display: flex;
+    align-items: center;
+}
+
+.season .ul .episode .info a .name {
+    margin: 0;
+
+
+}
+
+.season .ul .episode .info .date {
+    margin: 0;
+    padding-top: 10px;
+
+
+}
+
+.season .ul .episode .info .count {
+    margin: 0;
+    padding-top: 10px;
+
+}

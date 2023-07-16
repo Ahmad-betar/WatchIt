@@ -1,0 +1,107 @@
+.all {
+    display: flex;
+    padding: 5vw;
+
+}
+
+.all .first {}
+
+.all .first .img {
+    border-radius: 20px;
+
+}
+
+.all .first .personalInfo {}
+
+.all .first h4 {
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.all .first p {
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.all .first .ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+
+}
+
+.all .first .ul .name {
+    font-weight: 300;
+}
+
+.second {
+    padding-left: 20px;
+
+
+}
+
+.second .name {
+    margin: 0;
+    font-size: 200%;
+
+}
+
+.second p {
+    font-weight: 500;
+}
+
+.second .biography {
+    font-weight: 200;
+}
+
+.second .acting {
+    font-size: larger;
+    margin: 0;
+
+}
+
+.second .table {
+    /* border: 3px rgb(78 24 24) solid; */
+    /* background-color: rgb(78 24 24); */
+    color: white;
+
+
+}
+
+.second .table a {
+    color: white;
+
+
+}
+
+.second .table tr .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.second .table tr .date {
+    font-weight: 300;
+}
+
+.second .table td {
+    border-bottom: 2px rgb(78 24 24) solid;
+
+    padding: 20px;
+
+
+
+}
+
+.second .table td a {
+    height: auto;
+    max-width: 100%;
+
+}
+
+.second .table td a .img {
+    height: auto;
+    max-width: 50%;
+}

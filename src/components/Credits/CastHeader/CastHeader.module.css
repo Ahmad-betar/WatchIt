@@ -1,0 +1,64 @@
+.watchHeader {
+
+    height: 40vh;
+    width: 100%;
+    display: flex;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    align-items: end;
+    position: relative;
+}
+
+
+.watchHeader .style {
+    height: 100%;
+    width: 100%;
+    padding: 10px 20%;
+
+    background: linear-gradient(to top,
+            black 0% 50%,
+            rgba(0, 0, 0, 0.9) 52%,
+            rgba(0, 0, 0, 0.8) 54%,
+            rgba(0, 0, 0, 0.7) 56%,
+            rgba(0, 0, 0, 0.7) 60%,
+            rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    align-items: end;
+
+
+}
+
+
+
+
+.watchHeader .style .wrapper {
+
+    height: 80%;
+    width: 100%;
+
+
+}
+
+.watchHeader .style .wrapper .element {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+}
+
+.watchHeader .style .wrapper .element .image {
+    border-radius: 20px;
+
+}
+
+.watchHeader .style .wrapper .element .title {
+    margin: 0;
+    padding: 3% 0 0 3%;
+
+    font-size: 200%;
+
+
+}
