@@ -1,64 +1,63 @@
-.ul{
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-
+.ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
-.ul .viewMore{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.ul .viewMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.viewMore a:hover{
-    color: red;
+.ul .viewMore a {
+  color: red;
 }
 
-.ul .actor{
-
-    width: 15%;
-    height: 100%;
-    margin-right: 10px;
-
-
+.ul .actor {
+  width: 15%;
+  height: 100%;
+  margin-right: 10px;
 }
-.ul .actor a svg{
-    width: 100%;
-    border-radius: 20px;
-
+.ul .actor a svg {
+  width: 100%;
+  border-radius: 20px;
 }
 
-
-.ul .actor a svg path{
-    fill: white;
+.ul .actor a svg path {
+  fill: white;
 }
 
-.ul .actor a .img{
-    width: 100%;
-    border-radius: 20px;
-
+.ul .actor a .img {
+  width: 100%;
+  border-radius: 20px;
 }
 
-.ul .actor a:hover .actorName{
-    color: red;
+.ul .actor a:hover .actorName {
+  color: red;
 }
-
 
 .ul .actor a .actorName,
-.ul .actor a .character{
-    margin: 0;
-    font-size: small;
-
+.ul .actor a .character {
+  margin: 0;
+  font-size: small;
 }
 
-.ul .actor a .actorName{
-    font-weight: 700;
-
+.ul .actor a .actorName {
+  font-weight: 700;
 }
 
+.ul .actor a .character {
+  font-weight: 300;
+}
 
-.ul .actor a .character{
-    font-weight: 300;
+@media (max-width: 500px) {
+  .ul .actor {
+    display: none;
+  }
+  .ul .viewMore {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
 }

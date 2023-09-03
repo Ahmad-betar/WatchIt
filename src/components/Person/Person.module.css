@@ -89,7 +89,7 @@
 .second .table td {
     border-bottom: 2px rgb(78 24 24) solid;
 
-    padding: 20px;
+    padding: 10px;
 
 
 
@@ -103,5 +103,37 @@
 
 .second .table td a .img {
     height: auto;
-    max-width: 50%;
+    max-width: 100%;
+}
+
+@media (max-width : 768px) {
+    .all {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .all .first  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .all .first .img{
+        align-self: center;
+    }
+    .all .second{
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+@media (max-width : 400px) {
+    .second .table td {
+        padding: 0;
+    }
+    .second .table tr .title{
+        font-size: 75%;
+
+    }
 }

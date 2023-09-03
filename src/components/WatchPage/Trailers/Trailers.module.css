@@ -5,7 +5,10 @@
 
 
 }
-
+.wrapper .ul{
+    margin: 0;
+    padding: 0;
+}
 .wrapper .video {
     margin: auto;
     position: relative;
@@ -29,4 +32,28 @@
 
 
 
+}
+@media (max-width : 500px) {
+    .wrapper .video {
+        padding: 20px;
+    }
+    .wrapper {
+        padding: 0 1vw;
+    }
+    .wrapper .video .videoName{
+        font-size: medium;
+    }
+}
+@media (max-width : 300px) {
+    .wrapper {
+        padding: 0;
+    }
+    .wrapper .video .videoName{
+        font-size: smaller;
+    }
+}
+@media (max-width : 250px) {
+    .wrapper .video .videoName{
+        font-size: 10px;
+    }
 }

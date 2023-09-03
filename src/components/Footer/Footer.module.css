@@ -1,44 +1,3 @@
-/* .footer {
-
-    background: url('https://e1.pxfuel.com/desktop-wallpaper/529/3/desktop-wallpaper-poster-movie-film-movies-posters-movie-posters.jpg');
-    height: 400px;
-    width: 100%;
-    margin-top: 100px;
-
-    .shadow {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.8);
-
-        .netflix {
-            text-align: center;
-
-        }
-
-        .section {
-
-
-            .ul {
-
-                display: flex;
-                justify-content: space-between;
-                margin: auto;
-
-                .li {}
-            }
-        }
-
-
-
-
-
-    }
-
-
-} */
-
-
-
 
 .footer {
     background: url('https://e1.pxfuel.com/desktop-wallpaper/529/3/desktop-wallpaper-poster-movie-film-movies-posters-movie-posters.jpg');
@@ -64,3 +23,9 @@
 }
 
 .footer .shadow .section .ul .li {}
+
+@media (max-width : 500px) {
+    .footer .shadow .section .ul{
+        flex-direction: column;
+    }
+}   

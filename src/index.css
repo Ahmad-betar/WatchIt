@@ -21,7 +21,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #232426; */
   background-color: rgba(3, 3, 3, 0.975);
-  
+  transition: all ease-out 0.5s;
   
 }
 

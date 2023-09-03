@@ -5,7 +5,7 @@ import { Scrollbar } from "swiper";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import { ReactComponent as Triangle } from '../../assists/caret-right-icon.svg';
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useHistory } from "react-router-dom";
 import { ReactComponent as Video } from '../../assists/movie-videos-icon.svg';
 
 

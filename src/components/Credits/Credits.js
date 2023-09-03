@@ -22,7 +22,12 @@ const Credits = (props) => {
         setCrew(data.crew);
     }, []);
 
-
+    useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }, []);
 
     useEffect(() => {
         sendRequest({

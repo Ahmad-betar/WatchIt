@@ -43,7 +43,7 @@ const Trailers = (props) => {
     return (
         <Fragment>
             <div className={classes.wrapper}>
-                <ul>
+                <ul className={classes.ul}>
 
                     {videos.map((video) => {
 

@@ -1,81 +1,160 @@
-
-
 .nav {
-    display: grid;
-    align-items: center;
-    width: 100%;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "logo left left right";
-    height: 100%;
-  }
+  display: grid;
+  align-items: center;
+  width: 100%;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "logo left last";
+  height: fit-content;
+  padding: 10px 0;
+}
+
+.nav .firstNav {
+  grid-area: logo;
+  height: 100%;
+  /* width: 50%; */
+  width: 200px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.nav .firstNav .logo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.nav .firstNav .logo .img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav .lastNav {
+  grid-area: last;
+  justify-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav .lastNav .ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.nav .lastNav .ul .li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav .lastNav .ul .li a {
+  height: 100%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav .lastNav .watch {
+  font-weight: 900;
+}
+
+.nav .lastNav .watch .img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav .lastNav .ul a:hover,
+.nav .lastNav .ul a.active,
+.nav .lastNav .ul a:active {
+  border-bottom: var(--main-color) solid 4px;
+}
+
+.nav .categories {
   
+  grid-area: last;
+  cursor: pointer;
+  display: none;
+  justify-self: center;
+  position: relative;
+
+}
+
+.nav .categories svg{
+  width: 60%;
+  height: auto;
+}
+
+.nav .categories svg g polygon {
+  fill: red;
+}
+
+.nav .categories .ul{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.nav .categories .ul .li{
+  padding: 10px;
+}
+
+.nav .categories .ul .li a:hover,
+.nav .categories .ul .li a:active,
+.nav .categories .ul .li a.active
+{
+  color: red;
+
+}
+
+.modaloverlay{
+  box-sizing: border-box;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  border-radius: 14px;
+  z-index: 30;
+  padding: 20px;
+  background-color: black;
+  animation: animation ease-out 0.2s;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .nav .categories {
+    display: inline;
+  }
+  .nav .lastNav {
+    display: none;
+  }
   .nav .firstNav {
-    grid-area: logo;
-    height: 100%;
-    width: 50%;
-    justify-self: center;
+    width: 100px;
   }
-  
-  .nav .firstNav .logo {
-    height: 100%;
-    width: 100%;
-    display: flex;
+}
+@media (max-width: 500px) {
+}
+@keyframes animation {
+  0%{
+    opacity: 0;
+    transform: scale(0);
   }
-  
-  .nav .firstNav .logo .img {
-    height: 100%;
-    width: 100%;
+  100%{
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  .nav .leftNav {
-    grid-area: left;
-    justify-self: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .nav .leftNav .ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .nav .leftNav .ul .li {
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav .leftNav .ul .li a {
-    height: 100%;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-  }
-  
-  .nav .leftNav .watch {
-    font-weight: 900;
-  }
-  
-  .nav .leftNav .watch .img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .nav .leftNav .ul a:hover,
-  .nav .leftNav .ul a.active,
-  .nav .leftNav .ul a:active {
-    border-bottom: var(--main-color) solid 4px;
-  }
-  
-  .nav .rightNav {
-    grid-area: right;
-    justify-self: center;
-  }
-  
+}

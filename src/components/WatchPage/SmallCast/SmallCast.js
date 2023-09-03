@@ -15,7 +15,8 @@ const SmallCast = (props) => {
     const params = useParams();
     const { type } = props;
 
-
+    const test = window.innerWidth;
+    console.log({test})
     const setCastHandler = useCallback((data) => {
         setCast(data.cast.slice(0, 5));
     }, []);
@@ -67,7 +68,7 @@ const SmallCast = (props) => {
                 })}
                 <li className={classes.viewMore}>
                     <Link to={`${params.id}/credits`}>
-                        View More
+                        View Cast
                     </Link>
                 </li>
             </ul>

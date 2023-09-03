@@ -54,7 +54,8 @@ const Trailer = (props) => {
                 <ModalOverlay>
                     <div className={classes.trailer}>
                         <iframe
-                            width="560"
+                            // width="560"
+                            width="auto"
                             height="315"
                             src={`https://www.youtube.com/embed/${vedioId}`}
                             title="YouTube video player"

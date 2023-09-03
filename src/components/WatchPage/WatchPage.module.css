@@ -9,12 +9,12 @@
 .button {
     border: none;
     background-color: transparent;
-    color: white;
+    color: red;
     outline: none;
     font-size: larger;
     font-weight: 700;
     margin-bottom: 20px;
-
+    cursor: pointer;
 }
 
 
