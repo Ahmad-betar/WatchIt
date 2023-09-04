@@ -24,7 +24,9 @@
   width: 100%;
   display: flex;
 }
-
+.nav .firstNav .logo g path {
+  fill: red;
+}
 .nav .firstNav .logo .img {
   height: 100%;
   width: 100%;
@@ -77,16 +79,14 @@
 }
 
 .nav .categories {
-  
   grid-area: last;
   cursor: pointer;
   display: none;
   justify-self: center;
   position: relative;
-
 }
 
-.nav .categories svg{
+.nav .categories svg {
   width: 60%;
   height: auto;
 }
@@ -95,25 +95,22 @@
   fill: red;
 }
 
-.nav .categories .ul{
+.nav .categories .ul {
   margin: 0;
   padding: 0;
-  
 }
 
-.nav .categories .ul .li{
+.nav .categories .ul .li {
   padding: 10px;
 }
 
 .nav .categories .ul .li a:hover,
 .nav .categories .ul .li a:active,
-.nav .categories .ul .li a.active
-{
+.nav .categories .ul .li a.active {
   color: red;
-
 }
 
-.modaloverlay{
+.modaloverlay {
   box-sizing: border-box;
   position: absolute;
   top: 50px;
@@ -149,11 +146,11 @@
 @media (max-width: 500px) {
 }
 @keyframes animation {
-  0%{
+  0% {
     opacity: 0;
     transform: scale(0);
   }
-  100%{
+  100% {
     opacity: 1;
     transform: scale(1);
   }

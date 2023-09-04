@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import classes from "./Nav.module.css";
-import { ReactComponent as Netflix } from "../../../assists/Netflix_2015_logo.svg";
+import { ReactComponent as Netflix } from "../../../assists/Netflix_2015_logo2.svg";
 import { ReactComponent as Categories } from "../../../assists/3017931_categories_class_division_group_list_icon.svg";
 import { createPortal } from "react-dom";
 
