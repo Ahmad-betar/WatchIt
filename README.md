@@ -9,6 +9,6 @@ This is your chill spot to keep up with all things cinema. Wanna know what’s h
 ## Design Vibes
 I’m pretty stoked about the design (totally borrowed some ideas, but who hasn’t?). It looks cool and is easy to use, so you can just kick back and enjoy.
 
-And thats is :)
+And thats it :)
 i mean what stil reading... this is the first project
 
